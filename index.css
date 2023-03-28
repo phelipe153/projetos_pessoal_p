@@ -1,0 +1,364 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+* {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0% auto;
+}
+
+section {
+    min-height: 100vh;
+   
+
+}
+
+html{
+    background-color: #392BBE;
+    scroll-behavior: smooth;
+}
+
+
+
+
+header{
+    background-color: #17115B;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+}
+div.logo {
+    width: 80px; 
+    height: 60px;
+    position: fixed;
+    display: flex;
+
+}
+
+div.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+header nav ul{
+    font-size: 12px;
+    gap: 3rem;
+    position: fixed;
+    display: flex;
+    top: 1%;
+    
+}
+
+section.container-rede{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.041),black);
+}
+
+div.container-rede{
+    align-items: center;
+
+}
+
+div.text{
+    align-items: center;
+
+}
+
+.foto{
+    margin: 1%;
+    float: left;
+    height: 300px;
+    width: 200px;
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: #1C1B17 2px;
+    box-shadow: #1C1B17 ;
+    position: relative;
+    align-items: center;
+    padding-left: 10%;
+    top: 200px;
+}
+
+.text  {
+    position: relative;
+    align-items: center;
+    color: aquamarine;
+    padding-left: 19%;
+    left: 60px;
+    top: 260px;
+    font-size: 30px;
+
+
+}
+
+.text span{
+    color: aqua;
+}
+
+.redes a {
+    color: aqua;
+    padding: 10px;
+    margin-top: 5px; 
+}
+
+
+
+
+a{
+    color:#F36BF1;
+}
+
+
+h1{
+    color: #40F7FD;
+}
+
+h2{
+    color: #029FE2;
+}
+
+div.redes a{
+    color: #F9E100;
+}
+
+
+.sobre#seção {
+    margin-bottom: -210px;
+    height: 100vh;;
+    width: 100%;
+
+}
+
+.sobre  {
+    background-color: 392BBE ;
+    background: linear-gradient(black,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.041),black);
+
+    
+}
+
+.sobre .seção h2 {
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Chakra Petch', sans-serif;   
+    color: #3CF7FF;
+    align-items: center;
+    text-align: center;
+}
+.sobre .seção p span {
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    
+    padding-top: 20px;
+    color: #c71eb3;
+}
+
+.sobre .seção p {
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    
+    padding-top: 20px;
+    color: #FF95F3;
+}
+
+
+.fila .col h3 {
+    font-size: 28px;
+    color: aquamarine;  
+    padding-top: 20px;
+    font-family: 'Chakra Petch', sans-serif;   
+    text-align: center;
+
+}
+
+.fila .col ul {
+    list-style: none;
+    color: #3CF7FF;
+    font-size: 20px;
+    
+    justify-content: flex-start;
+}
+
+.fila .col ul strong {
+    color: #BE4C4B;
+    font-size: 22px;
+}
+
+.sobre .col h3 {
+    padding-top: 20px;
+    color: aquamarine;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+
+.col .Cinteresses .interesses{
+    align-items: flex-start;
+    font-size: 26px;
+    color: #F2CB05;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sobre button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 4px solid aqua;
+    width: fit-content;
+    display: block;
+    padding-top: 30px;
+    margin: 40px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #BE4C4B;
+    position: relative;
+    z-index: 10;
+}
+.sobre button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1C1B17;
+    z-index: -1;
+    transition: 1s;
+}
+.sobre button:hover .overlay{
+    width: 100%;
+}
+
+
+/* habilidades*/
+.habi {
+    background-color: #3CF7FF;
+    background: linear-gradient(black,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.041),black);
+
+    color: #F2CB05;
+    padding: 50px 20px;
+    
+    
+    
+}
+.habi .Shabi {
+    max-width: 1110px;
+    margin: auto;
+    
+}
+
+.habi .Shabi .Dhabi h2 {
+    color: aqua;
+    text-align: center;
+    padding-top: 50px;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.HB h3 {
+    color: #FF95F3;
+    text-align: center;
+   
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin: 2rem;
+
+}
+
+.HB div {
+    width: 120px;
+    padding: 50px 30px ;
+    height: 70px;
+    border: solid 2px #02362c;
+    border-radius: 20%;
+    text-align: center;
+    margin: 1rem;
+
+    display: inline-block;
+
+    background-color: #9249A6;
+    background: linear-gradient( rgba(177, 27, 169, 0.514), rgba(0, 0, 0, 0.253) );
+
+  
+}
+
+.Compe h3{
+    color: #FF95F3;
+    text-align: center;
+   
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin: 2rem;
+
+
+}
+
+.Compe div { 
+    width: 120px;
+    padding: 50px 30px ;
+    height: 70px;
+    border: solid 2px #02362c;
+    border-radius: 20%;
+    text-align: center;
+    margin: 1rem;
+
+    display: inline-block;
+
+    background-color: #9249A6;
+    background: linear-gradient( rgba(191, 28, 224, 0.445), rgba(0, 0, 0, 0.034) );
+ 
+}
+
+/* projetos*/
+
+.sec4 {
+    background-color: 392BBE ;
+    background: linear-gradient(black,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),black);
+
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.sec4 .proj {
+
+        max-width: 1100px;
+        margin: auto;
+}
+
+.sec4 .proj .Pproj h2{
+    color: #3ee4ba;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sec4 .proj .Pproj div{
+    width: 120px;
+    padding: 50px 30px ;
+    height: 70px;
+    border: solid 2px #02362c;
+    border-radius: 20%;
+    text-align: center;
+    margin: 1rem;
+
+    display: inline-block;
+
+    background-color: #02362c;
+    background: linear-gradient(#9A474D, rgba(148, 148, 148, 0) );
+}
+
+.sec4 .proj .Pproj div span {
+    color: #DB524C;
+    font-size: 18px;
+}
